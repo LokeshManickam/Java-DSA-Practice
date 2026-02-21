@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.Scanner;
 
-public class LinkedListDemo {
+public class ReverseLinkedList {
 
     static class Node {
 
@@ -66,7 +66,7 @@ public class LinkedListDemo {
     }
 
     public static void main(String[] args) {
-        LinkedListDemo list = new LinkedListDemo();
+        ReverseLinkedList list = new ReverseLinkedList();
         Scanner sc = new Scanner(System.in);
 
         // Taking input values
