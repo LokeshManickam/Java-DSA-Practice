@@ -90,7 +90,6 @@ public class DeleteNode {
 
         System.out.println("After Deletions:");
         list.display();
-
         sc.close();
     }
 }
