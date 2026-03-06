@@ -1,0 +1,29 @@
+package TwoPointers;
+
+import java.util.Scanner;
+
+public class MoveZeros {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int slow = 0;
+        for (int fast = 0; fast < n; fast++) {
+            if (arr[fast] != 0) {
+                arr[slow] = arr[fast];
+                slow++;
+            }
+        }
+        for (int i = slow; i < n; i++) {
+            arr[i] = 0;
+        }
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        sc.close();
+    }
+}
