@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CountOccurrences {
 
-    public static int firstOccurrence(int[] arr, target) {
+    public static int firstOccurrence(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
         int result = -1;
@@ -22,7 +22,7 @@ public class CountOccurrences {
         return result;
     }
 
-    public static int lastOccurrence(int[] arr, target) {
+    public static int lastOccurrence(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
         int result = -1;

@@ -27,5 +27,6 @@ public class FirstOccurrenceBinarySearch {
             }
         }
         System.out.println("First Occurrence Index: " + result);
+        sc.close();
     }
 }

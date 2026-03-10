@@ -27,5 +27,6 @@ public class BinarySearch {
             }
         }
         System.out.println("Index: " + result);
+        sc.close();
     }
 }
