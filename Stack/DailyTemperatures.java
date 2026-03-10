@@ -25,8 +25,8 @@ public class DailyTemperatures {
             }
 
             if (stack.isEmpty()) {
-                result[i] = 0; 
-            }else {
+                result[i] = 0;
+            } else {
                 result[i] = stack.peek() - i;
             }
 
